@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+    <meta author="Gianluca Rubino">
+	<link rel="icon" href="../favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="../_app/immutable/assets/_layout.84c82b35.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/_page.f8b10276.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.2888f84a.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.da870e2f.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.d2f5698c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.7015dc35.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.b1d8ac43.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/_layout.svelte.f2ef4ebe.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores.ce446025.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/_layout.ts.984db11e.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_layout.da46b06b.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/works-coop_words-page.svelte.a01f3a53.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+<div class="app svelte-1exm3a3"><header class="svelte-1u9z1tp"><div class="corner svelte-1u9z1tp"><a href="https://www.artstation.com/freccialata" target="_blank" rel="noopener noreferrer" class="svelte-1u9z1tp"><img src="/_app/immutable/assets/artstation-logo.aeb63792.svg" alt="WebsiteLogo" class="svelte-1u9z1tp"></a></div>
+
+	<nav class="svelte-1u9z1tp"><svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-1u9z1tp"><path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" class="svelte-1u9z1tp"></path></svg>
+		<ul class="svelte-1u9z1tp"><li class="svelte-1u9z1tp"><a href="/" class="svelte-1u9z1tp">Home</a></li>
+			<li class="svelte-1u9z1tp"><a href="/about" class="svelte-1u9z1tp">About</a></li>
+			<li class="svelte-1u9z1tp"><a href="/works" class="svelte-1u9z1tp">Works</a></li></ul>
+		<svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-1u9z1tp"><path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" class="svelte-1u9z1tp"></path></svg></nav>
+
+	<div class="corner svelte-1u9z1tp"><a href="https://github.com/Freccialata/freccialata.github.io" target="_blank" rel="noopener noreferrer" class="svelte-1u9z1tp"><img src="/_app/immutable/assets/github.a7dc1400.svg" alt="GitHub" class="svelte-1u9z1tp"></a></div>
+</header>
+
+	<main class="svelte-1exm3a3"><h1>Cooperative words</h1>
+
+<section class="flex-figure svelte-1ltqrr0"><img src="/_app/immutable/assets/words_wall_cover.09b1303b.webp" alt="random words couples projected on text" class="svelte-1ltqrr0"></section>
+
+<h2 class="svelte-1ltqrr0">Introduction</h2>
+
+<p>Interactive and collaborative experience using a laser traking system and a floor + wall
+	projector.
+</p>
+
+<p>Made for a <strong>hackathon</strong> at Museo Scienza&#39;s
+	<a href="https://www.museoscienza.org/en/offer/ilab/future-inventors" target="_blank" rel="noopener noreferrer">Future Inventors Lab</a>
+	(Milano). The work was supervied by professor <strong>Gerhard Funk</strong> of Linz Art University
+	(<a href="https://ars.electronica.art/aeblog/en/2016/06/13/deep-space-the-course/" target="_blank" rel="noopener noreferrer">click to know more</a>).
+</p>
+
+<p>The Future Inventors Lab has a smaller version of Ars Electonica&#39;s <a href="https://ars.electronica.art/center/en/exhibitions/deepspace" target="_blank" rel="noopener noreferrer">Deep Space 8K</a>
+	and it is called <i>Cooperative Aesthetics</i>. The goal of the hackathon was to develop an
+	interactive experience that could leverage said projector&#39;s capabilities.
+</p>
+
+<p>The result is a cooperative experience where you as a player have a letter assigned to you and you have to find out which word starts with such letter. The only way you can find out is if you go near another player and then you will both see your words in front of you close to eachother. See the videos below to get a better grasp (no audio).</p>
+
+<section class="flex-figure svelte-1ltqrr0"><video width="200px" controls class="svelte-1ltqrr0"><source src="/_app/immutable/assets/words_interact_show.d6603fee.webm" type="video/webm"><track kind="captions"></video>
+
+	<video width="200px" controls class="svelte-1ltqrr0"><source src="/_app/immutable/assets/words_wall_pano.c19ca196.webm" type="video/webm"><track kind="captions"></video>
+
+    
+    </section>
+
+<h2 class="svelte-1ltqrr0">The process</h2>
+
+<p>It was a team project. The members were:
+</p>
+
+<ul><li>Gianluca Rubino</li>
+    <li>Pierpaolo Grandinetti</li>
+    <li>Natalia Polvani</li></ul>
+
+<p>I was responsible for the main program logic.</p>
+
+<p>The implementation is written in <strong>Processing</strong> using the TUIO library to interface with the projector.
+</p>
+
+<figure class="svelte-1ltqrr0"><img src="/_app/immutable/assets/schema_words_interaction.e926e5e3.webp" alt="A drawing of how the interaction may be" class="prev-img svelte-1ltqrr0">
+	<figcaption>Brainstorming drawing</figcaption></figure>
+
+<figure class="svelte-1ltqrr0"><img src="/_app/immutable/assets/TUIO_simulator.e3df4728.webp" alt="TUIO simulator screenshot" class="prev-img svelte-1ltqrr0">
+	<figcaption>TUIO simulator was used to develop before uploading to the actual hardware
+	</figcaption></figure>
+
+<h3>Credits</h3>
+
+<p>Martin Kaltenbrunner&#39;s <a href="https://github.com/mkalten/TUIO11_Simulator" target="_blank" rel="noopener noreferrer">TUIO11 Simulator</a>.
+</p>
+
+<p><a href="https://github.com/dwyl/english-words" target="_blank" rel="noopener noreferrer">Dictionary of english words</a> that are chosen randomly.
+</p>
+
+<p><a href="https://fonts.google.com/specimen/Space+Mono" target="_blank" rel="noopener noreferrer">Space Mono</a> font used in the projection.
+</p></main>
+
+	<footer class="svelte-1exm3a3">
+		<p class="svelte-1exm3a3"><i>Website proudly made with <a href="https://kit.svelte.dev" target="_blank" rel="noopener noreferrer" class="svelte-1exm3a3">SvelteKit</a></i></p></footer>
+</div>
+
+
+			
+			<script>
+				{
+					__sveltekit_1wbbx4h = {
+						env: {},
+						base: new URL("..", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
+
+					const data = [null,null];
+
+					Promise.all([
+						import("../_app/immutable/entry/start.2888f84a.js"),
+						import("../_app/immutable/entry/app.b1d8ac43.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_1wbbx4h.element, {
+							node_ids: [0, 5],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
