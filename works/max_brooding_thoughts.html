@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width" />
 		
 		<link href="../_app/immutable/assets/0.610f475a.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/7.b2c8e677.css" rel="stylesheet">
 		<link rel="modulepreload" href="../_app/immutable/entry/start.bd186682.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index.8f7f132b.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.c6aefb10.js">
@@ -14,7 +15,8 @@
 		<link rel="modulepreload" href="../_app/immutable/entry/app.6fc34465.js">
 		<link rel="modulepreload" href="../_app/immutable/nodes/0.1459a3ab.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/stores.a5d74824.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/8.5dff823c.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/7.246fd49e.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Trandomness_cover.632951ca.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
@@ -32,9 +34,29 @@
 	<div class="corner svelte-1u9z1tp"><a href="https://github.com/Freccialata/freccialata.github.io" target="_blank" rel="noopener noreferrer" class="svelte-1u9z1tp"><img src="/_app/immutable/assets/github.a7dc1400.svg" alt="GitHub" class="svelte-1u9z1tp"></a></div>
 </header>
 
-	<main class="svelte-1exm3a3"><h1>Nile Mosaic interactive animations</h1>
+	<main class="svelte-1exm3a3"><h1>True Randomness<br>and Brooding Thoughts</h1>
 
-<p>Made with Touch Designer and Pure Data</p></main>
+<section class="center-image svelte-lqabtr"><img src="/_app/immutable/assets/Trandomness_cover.9381c13e.webp" alt="Square of random pixels" width="400px"></section>
+
+<p>An installation to reflect on the brooding thoughts we all have. An audio video experience driven by a device that generates random bits. Real randomness is symbol of the mind&#39;s phenomena that we do not yet know.
+</p>
+
+<p>Watch a preview <a href="https://www.youtube.com/watch?v=JpJSSf6_f9I" target="_blank" rel="noopener noreferrer">on YouTube</a>.
+</p>
+
+<p>Interaction with the hardware is implemented in Python, while audio and video with Cycling &#39;74 Max 8 comunicating through the OSC protocol.
+</p>
+
+<section class="center-image svelte-lqabtr"><img src="/_app/immutable/assets/screen_1.a1f83e90.webp" alt="" width="450px">
+    <img src="/_app/immutable/assets/screen_2.7f4c8d3d.webp" alt="" width="450px"></section>
+
+<p>Hardware used: <a href="https://randompower.eu/products-e-services/" target="_blank">Random Power&#39;s single generator board</a>.
+</p>
+
+<section class="center-image svelte-lqabtr"><img src="/_app/immutable/assets/rap_board.7d58521a.webp" alt="rap mvp" width="300px"></section>
+
+<p>Part of the audio is taken from <a href="https://www.youtube.com/watch?v=wKWthWEQPfE" target="_blank" rel="noopener noreferrer">Giulio Bosetti - Aspettando Godot</a>.
+</p></main>
 
 	<footer class="svelte-1exm3a3">
 		<p class="svelte-1exm3a3"><i>Website proudly made with <a href="https://kit.svelte.dev" target="_blank" rel="noopener noreferrer" class="svelte-1exm3a3">SvelteKit</a></i></p></footer>
@@ -58,7 +80,7 @@
 						import("../_app/immutable/entry/app.6fc34465.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
-							node_ids: [0, 8],
+							node_ids: [0, 7],
 							data,
 							form: null,
 							error: null
